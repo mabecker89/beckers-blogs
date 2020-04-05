@@ -1,1 +1,2 @@
-http://marcusbecker.netlify.com/*    https://marcusbecker.netlify.com/:splat  301!
+http://marcusbecker.netlify.com/*    https://blogsbybecker.com/:splat  301!
+https://marcusbecker.netlify.com/*   https://blogsbybecker.com/:splat  301!
