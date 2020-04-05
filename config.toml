@@ -9,7 +9,7 @@ title = "Blogging By Becker"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://wonderful-swanson-9c4857.netlify.com"
+baseurl = "https://marcusbecker.netlify.com"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
@@ -70,3 +70,6 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+  
+[permalinks]
+  post = "/:year/:month/:day/:slug/"

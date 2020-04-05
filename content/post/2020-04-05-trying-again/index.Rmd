@@ -1,0 +1,52 @@
+---
+title: Trying Again
+author: Marcus Becker
+date: '2020-04-05'
+slug: trying-again
+categories:
+  - Demo
+tags:
+  - Academic
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-04-05T15:38:26-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Here is some content.
+
+```{r}
+
+library(ggplot2)
+library(gapminder)
+
+p <- 
+  ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) +
+  geom_smooth(method = "loess") +
+  geom_point(color = "purple") +
+  scale_x_log10(label = scales::dollar)
+
+p
+
+```
+
+How about we add an image ...
+
+```{r}
+
+knitr::include_graphics("./IMG_0953.JPG")
+
+```
+
+
+
+
+
+
+

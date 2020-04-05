@@ -1,0 +1,39 @@
+---
+title: Trying Again
+author: Marcus Becker
+date: '2020-04-05'
+slug: trying-again
+categories:
+  - Demo
+tags:
+  - Academic
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-04-05T15:38:26-06:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Here is some content.</p>
+<pre class="r"><code>library(ggplot2)
+library(gapminder)
+
+p &lt;- 
+  ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) +
+  geom_smooth(method = &quot;loess&quot;) +
+  geom_point(color = &quot;purple&quot;) +
+  scale_x_log10(label = scales::dollar)
+
+p</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/post/2020-04-05-trying-again/index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>How about we add an image …</p>
+<pre class="r"><code>knitr::include_graphics(&quot;./IMG_0953.JPG&quot;)</code></pre>
+<p><img src="IMG_0953.JPG" /><!-- --></p>
