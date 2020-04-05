@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: My personal and professional interests include ecology, cycling, and hockey.
+bio: My personal and professional interests include ecology, cycling, and hockey. Plus some other stuff. 
 education:
   courses:
   - course: MSc in Agricultural and Resource Economics
@@ -36,4 +36,4 @@ user_groups:
 - Visitors
 ---
 
-Marcus Becker is a data scientist with the Alberta Biodiversity Monitoring Institute. 
+Marcus Becker is a data scientist with the Alberta Biodiversity Monitoring Institute, and does other things on the side.
